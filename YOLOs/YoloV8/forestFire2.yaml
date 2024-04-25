@@ -1,0 +1,10 @@
+# dataset.yaml
+path: /content/drive/MyDrive/DLProj  # directory where the dataset is located
+train: train/images  # training images folder
+val: test/images  # validation images folder
+
+# Number of classes
+nc: 2  # number of classes (adjust this to match your dataset)
+
+# Class names
+names: ['Fire', 'Smoke']
